@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Diary Entry Generator</title>
+  <link rel="stylesheet" href="ML.css">
+</head>
+<body>
+  <h1>Diary Entry Generator</h1>
+  <div class="image-container">
+    <img src="happy.jpg" width="200" height="200" alt="Happy" id="happy">
+    <img src="sad.jpg" width="200" height="200" alt="Sad" id="sad">
+    <img src="angry.jpg" width="200" height="200" alt="Angry" id="angry">
+    <img src="surprise.jpg" width="200" height="200" alt="Surprised" id="surprised">
+    <img src="noexp.jpg" width="200" height="200" alt="Neutral" id="neutral">
+  </div>
+  <label for="mood-select">Select a mood:</label>
+  <select id="mood-select">
+    <option value="0">Happy</option>
+    <option value="1">Sad</option>
+    <option value="2">Angry</option>
+    <option value="3">Surprised</option>
+    <option value="4">Neutral</option>
+  </select>
+  <br>
+  <label for="prompt">Enter a prompt:</label>
+  <input type="text" id="prompt">
+  <button onclick="generateEntry()">Generate Entry</button>
+  <div id="diary-entry"></div>
+  <script src="ML.js"></script>
+</body>
+</html>

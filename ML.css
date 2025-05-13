@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  img {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+  }
+  
+  .cta-btn {
+    background: #ff4757;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-top: 20px;
+    display: inline-block;
+}
+  
+  #diary-entry {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #diary-entry h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  #diary-entry p {
+    color: #555;
+    line-height: 1.5;
+  }
