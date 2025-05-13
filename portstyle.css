@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    color: #df7c7c;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Header Styles */
+header {
+    background-color: #da9797;
+    color: rgb(240, 234, 234);
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+header .tagline {
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+
+/* About Section */
+#about .about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#about img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#about p {
+    max-width: 600px;
+}
+
+/* Skills Section */
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills ul li {
+    background: #da9797;
+    margin: 10px 0;
+    padding: 10px;
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* Projects Section */
+#projects .project-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+#projects .project {
+    background: #da9797;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#projects .project img {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    border-radius: 8px;
+}
+#projects .project h3 {
+    margin-top: 10px;
+    justify-content: center;
+}
+
+/* Resume Section */
+#resume a {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+#resume a:hover {
+    background-color: #555;
+}
+
+/* Contact Section */
+#contact p {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Optional: Makes it vertically centered */
+}
